@@ -1,0 +1,52 @@
+// FONTS IMPORT
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Roboto:wght@400;500;700&display=swap');
+
+// MARGINS SETTINGS
+body{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+// STYLE GUIDE
+// Fonts
+$mainfont: 'Inter', sans-serif;
+$secondaryfont: 'Roboto', sans-serif;
+// Fonts size
+$heading:38px;
+$subheading:28px;
+$content:14px;
+$projectSize:22px;
+$smallSize:12px;
+// Font weight
+$hero:bold;
+$paragraf:normal;
+$sub:medium;
+$proj:700;
+// Line height
+$lineheight1:22px;
+$lineheight2:28px;
+
+// Colors
+$secondary:#4A4DE8;
+$stroke:#F3F3FA;
+$white:#FFFFFF;
+$black:#111111;
+$parf:#414141;
+
+// Shadow
+$btnShadow:rgba(189, 190, 255, 0.6);
+$projectList:rgba(255, 255, 255, 1);
+
+nav{
+    font-family: $mainfont;
+    color: $black;
+    .brand-name{
+      a{
+        font-size: $projectSize;
+        font-weight: 700;
+        span{
+            color:$secondary;
+        }
+      }
+    }
+}
