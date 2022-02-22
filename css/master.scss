@@ -34,9 +34,11 @@ $black:#111111;
 $parf:#414141;
 
 // Shadow
-$btnShadow:rgba(189, 190, 255, 0.6);
+$btnShadow: 0px 4px 25px 0px rgba(189, 190, 255, 0.6);
 $projectList:rgba(255, 255, 255, 1);
 
+
+// Navigation Bar
 nav{
     font-family: $mainfont;
     color: $black;
@@ -49,4 +51,32 @@ nav{
         }
       }
     }
+}
+
+//Hero Section
+.hero-section{
+  margin-top: 80px;
+  .row{
+    align-items: center;
+  }
+}
+.col-md-6{
+  
+  h1{
+    margin: 60px 0 30px 0;
+    font-size: $heading;
+    font-weight: $hero;
+    font-family: $mainfont;
+  }
+  button{
+    padding: 10px 40px;
+    border-radius: 50px;
+    font-size: $content;
+    font-weight: $sub;
+    font-family: $mainfont;
+    box-shadow: $btnShadow;
+  }
+  img{
+    width: 421px;
+  }
 }
